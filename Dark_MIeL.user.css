@@ -1,10 +1,10 @@
-/*  ==UserStyle==
+/* ==UserStyle==
 @name           UNLaM - MIeL
 @namespace      https://github.com/mngomezz/UNLaM-Modo-Oscuro/blob/master/Dark_MIeL.user.css
 @description    Modo oscuro para www.miel.unlam.edu.ar
 @author         Martin Gomez
 @homepageURL    https://github.com/mngomezz
-    ==UserStyle== */
+==UserStyle== */
 @-moz-document domain("miel.unlam.edu.ar") {
 body, #encabezado, .w3-white, .w3-card-4 ,.w3-clear, .mce-textbox  {
     background-color: #272727 !important;

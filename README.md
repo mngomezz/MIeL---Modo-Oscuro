@@ -1,3 +1,9 @@
 # MIeL---Modo-Oscuro
-## Requisitos para la instalación:
-Para instalar los estilos es necesario tener un administrador de estilos de usuario. Stylus es un administrador que permite instalar fácilmente temas y máscaras para muchos sitios populares.
+### Requisitos para la instalación:
+1. Descargar un administrador de estilos:
+Para instalar los estilos es necesario tener un administrador de estilos. Stylus es el que yo recomiendo.
+Link de descarga para [Google Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en).
+Link de descarga para [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
+2. Descargar los estilos:
+Link de descarga [Modo Oscuro de MIeL](chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html?id=1).
+Link de descargar [Modo Oscuro de Intraconsulta](chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html?id=2).

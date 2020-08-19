@@ -5,7 +5,7 @@
 @author         Martin Gomez
 @homepageURL    https://github.com/mngomezz
 ==/UserStyle== */
-@-moz-document domain("alumno2.unlam.edu.ar") {
+@-moz-document url-prefix("alumno2.unlam.edu.ar") {
         body, .container {
             background-color: #272727 !important;
             color: white !important;

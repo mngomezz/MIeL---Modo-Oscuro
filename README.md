@@ -1,4 +1,4 @@
-# UNLaM-Modo-Oscuro
+# UNLaM // Modo-Oscuro
 ### Requisitos para la instalación:
 1. Descargar un administrador de estilos:
 Para instalar los estilos es necesario tener un administrador de estilos. Stylus es el que yo recomiendo.

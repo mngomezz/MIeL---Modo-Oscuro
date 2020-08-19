@@ -6,7 +6,7 @@
 @author         Martin Gomez
 @homepageURL    https://github.com/mngomezz
 ==/UserStyle== */
-@-moz-document url-prefix("miel.unlam.edu.ar") {
+@-moz-document domain("miel.unlam.edu.ar") {
     body, #encabezado, .w3-white, .w3-card-4 ,.w3-clear, .mce-textbox  {
         background-color: #272727 !important;
         color: white !important;

@@ -6,4 +6,4 @@ Link de descarga para [Google Chrome](https://chrome.google.com/webstore/detail/
 Link de descarga para [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/).
 2. Descargar los estilos:
 Link de descarga [Modo Oscuro de MIeL](chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/edit.html?id=1).
-Link de descargar [Modo Oscuro de Intraconsulta](https://raw.githubusercontent.com/mngomezz/UNLaM-Modo-Oscuro/master/MIeL-Modo-Oscuro.user.css).
+Link de descargar [Modo Oscuro de Intraconsulta](https://raw.githubusercontent.com/mngomezz/UNLaM-Modo-Oscuro/master/Dark_Intraconsulta.user.css).

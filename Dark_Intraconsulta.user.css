@@ -1,11 +1,11 @@
+/* ==UserStyle==
+@name           UNLaM - Intraconsulta
+@namespace      https://github.com/mngomezz/UNLaM-Modo-Oscuro/blob/master/Dark_Intraconsulta.user.css
+@description    Modo oscuro para www.unlam.edu.ar
+@author         Martin Gomez
+@homepageURL    https://github.com/mngomezz
+==/UserStyle== */
 @-moz-document domain("alumno2.unlam.edu.ar") {
-        /* ==UserStyle==
-        @name           UNLaM - Intraconsulta
-        @namespace      https://github.com/mngomezz/UNLaM-Modo-Oscuro/blob/master/Dark_Intraconsulta.user.css
-        @description    Modo oscuro para www.unlam.edu.ar
-        @author         Martin Gomez
-        @homepageURL    https://github.com/mngomezz
-        ==/UserStyle== */
         body, .container {
             background-color: #272727 !important;
             color: white !important;

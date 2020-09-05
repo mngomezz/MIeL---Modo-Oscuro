@@ -24,7 +24,7 @@
         background-color: #272727;
         border: solid #4caf50 thin;
     }
-    .w3-light-grey {
+    .w3-light-grey, .chat-bubble-left, .chat-bubble-left:after {
         background-color: #5A5A5A !important;
         color: white !important;
     }

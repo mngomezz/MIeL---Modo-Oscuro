@@ -30,6 +30,7 @@
     }
     .chat-bubble-left:after{
         color: #5A5A5A !important;
+    }
     .w3-text-grey, .w3-text-black, .w3-hover-text-black:hover, .w3-dark-grey-d2 {
         color: lightgrey !important;
     }

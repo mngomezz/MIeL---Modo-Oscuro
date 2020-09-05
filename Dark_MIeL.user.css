@@ -24,10 +24,12 @@
         background-color: #272727;
         border: solid #4caf50 thin;
     }
-    .w3-light-grey, .chat-bubble-left, .chat-bubble-left:after {
+    .w3-light-grey, .chat-bubble-left {
         background-color: #5A5A5A !important;
         color: white !important;
     }
+    .chat-bubble-left:after{
+        color: #5A5A5A !important;
     .w3-text-grey, .w3-text-black, .w3-hover-text-black:hover, .w3-dark-grey-d2 {
         color: lightgrey !important;
     }

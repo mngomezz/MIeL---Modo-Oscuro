@@ -48,6 +48,9 @@
         border-bottom: 1px solid lightgrey !important;
         color: white;
     }
+    .w3-panel{
+        padding:10px;
+    }
     .w3-light-gray {
         background-color: #393939 !important;
         border: none !important;

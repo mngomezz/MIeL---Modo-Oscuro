@@ -99,4 +99,7 @@
     .datepicker-panel > ul > li:hover {
         background-color: #2d8ac7c2 !important;
     }
+    .w3-light-grey-d1{
+        background-color:#5A5A5A !important;
+    }
 }

@@ -89,4 +89,11 @@
     .mce-btn:hover, .mce-btn:focus {
         border: none !important;
     }
+    .datepicker-panel > ul >li{
+        background-color:#393939 !important;
+    }
+    .datepicker-panel > ul > li.picked{
+        color: white !important;
+        background-color: #2d8ac7 !important;
+    }
 }

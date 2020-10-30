@@ -96,4 +96,7 @@
         color: white !important;
         background-color: #2d8ac7 !important;
     }
+    .datepicker-panel > ul > li:hover {
+        background-color: #2d8ac7c2 !important;
+    }
 }

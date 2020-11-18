@@ -72,6 +72,7 @@
         background-color: #393939 !important;
         border: none !important;
         color: white !important;
+        border-radius: 5px;
     }
     .w3-teal, .w3-hover-blue:hover, .w3-red, .w3-hover-red:hover {
         background-color: #4caf50 !important;

@@ -7,164 +7,113 @@
 @homepageURL    https://github.com/mngomezz/UNLaM-Modo-Oscuro/blob/master/Dark_MIeL.user.css
 ==/UserStyle== */
 @-moz-document domain("miel.unlam.edu.ar") {
-    body, #encabezado, .w3-white, .w3-card-4 ,.w3-clear, .mce-textbox  {
-        background-color: #272727 !important;
-        color: white !important;
-    }
-    .w3-text-dark-grey, span, .w3-section, .mce-text, .mce-title, .mce-btn button, .materia-herramientas, tr.mensaje-no-leido a {
-        color: white !important;
-    }
-    #texto-queEsMiel, #nav-home, #texto-quienesSomos, #texto-contacto{
-        background-color: #393939 !important;
-    }
-    .w3-circle{
-        border-radius: 50% !important;
-    }
-    .w3-btn-block.w3-card.w3-right-align.w3-white.w3-rightbar.w3-hover-light-grey{
-        border-radius: 0px 5px 5px 0px !important;
-    }
-    .w3-btn-block.w3-card.w3-right-align.w3-white.w3-rightbar.w3-hover-light-grey:hover{
-        color:white !important;
-        background-color: #393939 !important;
-    }
-    #card-login, .w3-green, .w3-btn-block, .w3-col img, #perfil-fotoAvatar, .w3-btn{
-        border-radius: 5px;
-    }
-    #encabezado .logos img.w3-margin-right{
-        content:url("https://cdn.unlam.edu.ar/static/imagenes/logo_unlam_34_blanco.png") !important;
-    }
-    #encabezado .logos img{
-        content:url("https://cdn.unlam.edu.ar/static/imagenes/logo_miel_34_blanco.png") !important;
-    }
-    #divNuevoEvento {
-        background-color: #272727;
-        border: solid #4caf50 thin;
-    }
-    .w3-light-grey, .chat-bubble-left {
-        background-color: #5A5A5A !important;
-        color: white !important;
-        border-radius: 5px;
-    }
-    .chat-bubble-left:after{
-        color: #5A5A5A !important;
-        border-color: #5A5A5A transparent transparent transparent !important;
-    }
-    .w3-text-grey, .w3-text-black, .w3-hover-text-black:hover, .w3-dark-grey-d2 {
-        color: lightgrey !important;
-    }
-    .w3-select {
-        background-color: #272727;
-        border: none !important;
-        color: white;
-    }
-    .w3-select option[disabled] {
-        color: #7ac37d;
-    }
-    .w3-input {
-        background-color: #272727;
-        border-bottom: 1px solid lightgrey !important;
-        color: white;
-    }
-    .w3-panel{
-        padding:10px;
-    }
-    .w3-light-gray {
-        background-color: #393939 !important;
-        border: none !important;
-        color: white !important;
-        border-radius: 5px;
-    }
-    .w3-teal, .w3-hover-blue:hover, .w3-red, .w3-hover-red:hover {
-        background-color: #4caf50 !important;
-    }
-    .w3-border {
-        border: 1px solid #5A5A5A !important;
-        border-radius: 5px;
-    }
-    #textoBuscar, #buscarPalabra{
-        border-radius: 5px 0px 0px 5px !important;
-    }
-    #botonBuscarPalabra, #botonBuscarArchivo{
-        border-radius: 0px 5px 5px 0px !important;
-    }
-    .w3-dropdown-content a:hover, .material-icons.w3-large:hover, .w3-closebtn:hover,.w3-closebtn:focus, .w3-hover-light-grey:hover{
-        background-color:#5A5A5A !important;
-        color: white !important
-    }
-    .w3-modal-content.w3-card-4{
-        border-radius: 5px !important;
-    }
-    a.link:active,  a.link:link, a.link:visited {
-        color: #4caf50;
-    }
-    .w3-hoverable tbody tr:hover, .w3-ul.w3-hoverable li:hover {
-        background-color: #5A5A5A !important;
-    }
-    .w3-hover-light-gray:hover, .w3-pale-yellow, .w3-hover-pale-yellow:hover  {
-        background-color: #5A5A5A !important;
-        color: white !important;
-    }
-    input:-webkit-autofill {
-        -webkit-box-shadow: 0 0 0 30px #272727 inset;
-        -webkit-text-fill-color: white;
-    }
-    .mce-ico, .mce-txt, .mce-container, .mce-widget, .mce-caret {
-        background-color:#868686 !important;
-        color: white !important;
-    }
-    .mce-i-none:hover, .mce-menu-item.mce-disabled:hover, .mce-menu-item.mce-disabled:hover .mce-i-none {
-        background-color:#272727 !important;   
-    }
-    .mce-menu-item:hover .mce-i-none, #mceu_36 .mce-i-table:hover {
-        background-color:#2d8ac7 !important;
-    }
-    .mce-btn:hover, .mce-btn:focus {
-        border: none !important;
-    }
-    .datepicker-panel > ul >li{
-        background-color:#393939 !important;
-    }
-    .datepicker-panel > ul > li.picked{
-        color: white !important;
-        background-color: #2d8ac7 !important;
-    }
-    .datepicker-panel > ul > li:hover {
-        background-color: #2d8ac7c2 !important;
-    }
-    .w3-light-grey-d1{
-        background-color:#5A5A5A !important;
-    }
-    .chip{
-        background-color: #555555 !important;
-    }
-    li.foro-mensaje, li.foro-respuesta{
-        border-top: 1px solid #868686;
-    }
-    .foro-tema, .w3-bordered tr{
-        border-bottom: 1px solid #868686 !important;
-    }
-    .w3-cell.w3-cell-middle.w3-container{
-        background-color: #393939 !important;
-        border-radius:0px 5px 5px 0px !important;
-    }
-    .w3-cell.w3-cell-middle.w3-center.icono-ayuda{
-        border-radius:5px 0px 0px 5px !important;
-    }
-    .w3-cell.w3-cell-middle.w3-container > .w3-text-gray{
-        color: #868686 !important;
-    }
-    #formNuevoEvento label{
-        margin-left:5px !important;
-    }
-    #botonAplicarFiltros{
-        background-color: #4caf50 !important;
-    }
-    header.w3-light-grey{
-        border-radius: 5px 5px 0px 0px !important;
-        background-color: #4caf50 !important;
-    }
-    .mfp-close{
-        color: white !important;
-    }
-    
+
+/** CAMBIO DE LOGOS **/
+#encabezado .logos img.w3-margin-right
+{ content:url("https://cdn.unlam.edu.ar/static/imagenes/logo_unlam_34_blanco.png") !important; }
+#encabezado .logos img
+{ content:url("https://cdn.unlam.edu.ar/static/imagenes/logo_miel_34_blanco.png") !important; }
+/** CAMBIO DE LOGOS **/
+
+/** COLOR DE LETRA **/
+body, #encabezado, .w3-white, .w3-card-4 ,.w3-clear, .mce-textbox, .w3-text-dark-grey, span, .w3-section, .mce-text, .mce-title, .mce-btn button, .materia-herramientas, tr.mensaje-no-leido a, .w3-btn-block.w3-card.w3-right-align.w3-white.w3-rightbar.w3-hover-light-grey:hover, .w3-light-grey, .chat-bubble-left,.w3-hover-light-grey:hover, .w3-select, .w3-input, .w3-light-gray, .w3-dropdown-content a:hover, .material-icons.w3-large:hover, .w3-closebtn:hover,.w3-closebtn:focus, .w3-hover-light-gray:hover, .w3-pale-yellow, .w3-hover-pale-yellow:hover, .mce-ico, .mce-txt, .mce-container, .mce-widget, .mce-caret, .datepicker-panel > ul > li.picked, .mfp-close
+{ color: white !important; }
+/** COLOR DE LETRA **/
+
+/** COLOR BASE DEL FONDO **/
+body, #encabezado, #divNuevoEvento, .w3-white, .w3-card-4 ,.w3-clear, .mce-textbox, .w3-select, .w3-input, .mce-i-none:hover, .mce-menu-item.mce-disabled:hover, .mce-menu-item.mce-disabled:hover .mce-i-none 
+{ background-color: #272727 !important; }
+/** COLOR BASE DEL FONDO **/
+
+/** COLOR PRIMARIO **/
+#texto-queEsMiel, #nav-home, #texto-quienesSomos, #texto-contacto, .w3-btn-block.w3-card.w3-right-align.w3-white.w3-rightbar.w3-hover-light-grey:hover, .w3-light-gray, .datepicker-panel > ul >li, .w3-cell.w3-cell-middle.w3-container
+{ background-color: #393939 !important; }
+/** COLOR PRIMARIO **/
+	
+/** COLOR SECUNDARIO **/
+.w3-light-grey, .chat-bubble-left,.w3-hover-light-grey:hover, .w3-dropdown-content a:hover, .material-icons.w3-large:hover, .w3-closebtn:hover,.w3-closebtn:focus, .w3-hoverable tbody tr:hover, .w3-ul.w3-hoverable li:hover, .w3-hover-light-gray:hover, .w3-pale-yellow, .w3-hover-pale-yellow:hover, .w3-light-grey-d1
+{ background-color: #5A5A5A !important; }
+/** COLOR SECUNDARIO **/
+
+/** RADIO A LOS BOTONES Y DIVS **/
+#card-login, .w3-green, .w3-btn-block, .w3-col img, #perfil-fotoAvatar, .w3-btn, .w3-light-grey, .w3-light-gray, .chat-bubble-left,.w3-hover-light-grey:hover, body, #encabezado, .w3-white, .w3-card-4 ,.w3-clear, .mce-textbox, .w3-border, .div-chat-conversaciones-elemento, .w3-btn, .w3-modal-content.w3-card-4
+{ border-radius: 5px; }
+/** RADIO A LOS BOTONES Y DIVS **/
+
+.w3-select, .w3-light-gray, .mce-btn:hover, .mce-btn:focus
+{ border: none !important; }
+
+.w3-btn-block.w3-card.w3-right-align.w3-white.w3-rightbar.w3-hover-light-grey, #botonBuscarPalabra, #botonBuscarArchivo, .w3-cell.w3-cell-middle.w3-container
+{ border-radius: 0px 5px 5px 0px !important; }
+
+.w3-cell.w3-cell-middle.w3-center.icono-ayuda, #textoBuscar, #buscarPalabra
+{ border-radius: 5px 0px 0px 5px !important; }
+
+header.w3-light-grey
+{ border-radius: 5px 5px 0px 0px !important; }
+
+#form-chat-submit
+{ border-radius: 50% !important; }
+
+#divNuevoEvento
+{ border: solid #4caf50 thin; }
+
+.w3-text-grey, .w3-text-black, .w3-hover-text-black:hover, .w3-dark-grey-d2
+{ color: lightgrey !important; }
+
+.w3-select option[disabled]
+{ color: #7ac37d; }
+
+.w3-input
+{ border-bottom: 1px solid lightgrey !important; }
+
+.w3-panel
+{ padding:10px; }
+
+.w3-teal, .w3-hover-blue:hover, .w3-red, .w3-hover-red:hover, #botonAplicarFiltros, header.w3-light-grey
+{ background-color: #4caf50 !important; }
+
+.w3-border
+{ border: 1px solid #5A5A5A !important; }
+
+a.link:active,  a.link:link, a.link:visited
+{ color: #4caf50; }
+
+.mce-ico, .mce-txt, .mce-container, .mce-widget, .mce-caret
+{ background-color:#868686 !important; }
+
+.mce-menu-item:hover .mce-i-none, #mceu_36 .mce-i-table:hover, .datepicker-panel > ul > li.picked
+{ background-color:#2d8ac7 !important; }
+
+.datepicker-panel > ul > li:hover
+{ background-color: #2d8ac7c2 !important; }
+
+.chip
+{ background-color: #555555 !important; }
+
+li.foro-mensaje, li.foro-respuesta
+{ border-top: 1px solid #868686; }
+
+.foro-tema, .w3-bordered tr
+{ border-bottom: 1px solid #868686 !important; }
+
+.w3-cell.w3-cell-middle.w3-container > .w3-text-gray
+{ color: #868686 !important; }
+
+#formNuevoEvento label
+{ margin-left:5px !important; }
+
+tbody tr td
+{ padding-left: 12px !important; }
+	
+.chat-bubble-left:after{
+	color: #5A5A5A !important;
+    border-color: #5A5A5A transparent transparent transparent !important;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 30px #272727 inset;
+    -webkit-text-fill-color: white;
+}
+
 }

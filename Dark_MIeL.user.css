@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UNLaM - MIeL
 @namespace      https://github.com/mngomezz/UNLaM-Modo-Oscuro
-@version        5.11.1
+@version        5.11.2
 @description    Modo oscuro para miel.unlam.edu.ar
 @author         Martin Gomez
 @homepageURL    https://github.com/mngomezz/UNLaM-Modo-Oscuro/blob/master/Dark_MIeL.user.css
@@ -17,6 +17,9 @@
     #texto-queEsMiel, #nav-home, #texto-quienesSomos, #texto-contacto{
         background-color: #393939 !important;
     }
+    .w3-circle{
+        border-radius: 50% !important;
+    }
     .w3-btn-block.w3-card.w3-right-align.w3-white.w3-rightbar.w3-hover-light-grey{
         border-radius: 0px 5px 5px 0px !important;
     }
@@ -24,8 +27,8 @@
         color:white !important;
         background-color: #393939 !important;
     }
-    #card-login, .w3-green{
-        border-radius: 5px !important;
+    #card-login, .w3-green, .w3-btn-block, .w3-col img, #perfil-fotoAvatar, .w3-btn{
+        border-radius: 5px;
     }
     #encabezado .logos img.w3-margin-right{
         content:url("https://cdn.unlam.edu.ar/static/imagenes/logo_unlam_34_blanco.png") !important;
@@ -48,9 +51,6 @@
     }
     .w3-text-grey, .w3-text-black, .w3-hover-text-black:hover, .w3-dark-grey-d2 {
         color: lightgrey !important;
-    }
-    .w3-btn{
-        border-radius: 5px !important;    
     }
     .w3-select {
         background-color: #272727;
@@ -87,7 +87,7 @@
     #botonBuscarPalabra, #botonBuscarArchivo{
         border-radius: 0px 5px 5px 0px !important;
     }
-    .w3-dropdown-content a:hover, .material-icons.w3-large:hover, .w3-closebtn:hover,.w3-closebtn:focus{
+    .w3-dropdown-content a:hover, .material-icons.w3-large:hover, .w3-closebtn:hover,.w3-closebtn:focus, .w3-hover-light-grey:hover{
         background-color:#5A5A5A !important;
         color: white !important
     }
@@ -158,9 +158,6 @@
     }
     #botonAplicarFiltros{
         background-color: #4caf50 !important;
-    }
-    tbody tr td{
-        padding-left: 12px !important;
     }
     header.w3-light-grey{
         border-radius: 5px 5px 0px 0px !important;

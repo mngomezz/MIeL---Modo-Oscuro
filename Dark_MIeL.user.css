@@ -10,7 +10,7 @@
 
 /** CAMBIO DE LOGOS **/
 #encabezado .logos img.w3-margin-right
-{ content:url("https://cdn.unlam.edu.ar/static/imagenes/logo_unlam_34_blanco.png") !important; }
+{ filter: brightness(0%) invert(100%) !important; }
 #encabezado .logos img
 { content:url("https://cdn.unlam.edu.ar/static/imagenes/logo_miel_34_blanco.png") !important; }
 /** CAMBIO DE LOGOS **/

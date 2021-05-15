@@ -7,10 +7,14 @@
 @homepageURL    https://github.com/mngomezz/UNLaM-Modo-Oscuro/blob/master/Dark_MIeL.user.css
 ==/UserStyle== */
 @-moz-document domain("miel.unlam.edu.ar") {
-
 /** CAMBIO DE LOGOS **/
 #encabezado .logos img
 { filter:invert(1) brightness(10); }
+@media screen and (max-width:992px)
+{
+	div.w3-white
+	{ display:none; }
+}
 /** CAMBIO DE LOGOS **/
 
 /** COLOR DE LETRA **/

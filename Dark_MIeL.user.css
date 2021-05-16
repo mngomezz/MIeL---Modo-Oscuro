@@ -12,7 +12,7 @@
 { filter:invert(1) brightness(10); }
 @media screen and (max-width:992px)
 {
-	div.w3-white
+	div.w3-row.w3-white.w3-padding-left.w3-padding-right.w3-padding-4
 	{ display:none; }
 }
 /** CAMBIO DE LOGOS **/
